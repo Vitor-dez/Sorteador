@@ -1,0 +1,355 @@
+*{
+margin: 0;
+font-family: 'Roboto', sans-serif;
+}
+
+.caixa{
+  
+    margin-top: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #030303;
+    border-radius: 100px;
+   padding: 5%;
+  
+    
+}
+#result{
+width: 100px;
+height: 70px;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+background-color: rgb(14, 63, 10);
+color: white;
+border-radius: 50px;
+
+
+}
+.inform{
+    margin-bottom: 20px;
+color: white;
+margin-left:170px;
+
+}
+
+img{
+    width: 30%;
+    margin-left: 36%;
+    
+  
+    
+}
+
+    
+
+
+p{
+    color: rgb(235, 124, 14);
+    font-weight: bold;
+    margin-left: 190px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mini-caixa{
+ width: 50%;
+position: relative;
+left: 120px;
+display: grid;
+grid-template-columns: 120px;
+grid-row-gap: 10px;
+ 
+}
+input{
+    width: 300px;
+height: 30px;
+outline: none;
+border-color: rgb(233, 221, 221);
+border: none;
+border-radius: 10px;
+font-size: 18px; 
+left: 200px;
+}
+
+input:focus{
+    box-shadow: 0px 8px 8px #888888;
+}
+
+input:active{
+    box-shadow: 0px 2px 2px #888888;
+}
+
+button{
+   position: relative;
+    width: 150px;
+    height: 30px;
+    margin-top: 20px;
+    left: 80px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(49, 141, 12);
+   color: white;
+   cursor: pointer;
+   margin-bottom: 20px;
+}
+
+
+
+button:hover{
+background: rgb(3, 48, 11);
+border: solid 2px rgb(0, 0, 0);
+transition: 0.5s;
+}
+button:active{
+    background: rgb(11, 170, 40);
+    
+}
+
+@media screen and (max-width: 962px){
+
+
+.inform{
+   margin-left: 140px;
+}
+
+img{
+    margin-left: 150px;
+}
+
+    .mini-caixa{
+        left: 135px;
+        
+            }
+        
+            p{
+                width: 150px;
+            margin-left: 160px; 
+           
+              
+            }
+        
+            input{
+                width: 200px;
+                left: 50px;
+            }
+        
+            button{
+                left:25px;
+            }
+}
+
+
+@media screen and (max-width: 901px){
+    
+    
+    .inform{
+       margin-left: 95px;
+    }
+    
+    img{
+        margin-left: 130px;
+    }
+    
+        .mini-caixa{
+            left: 95px;
+            
+                }
+            
+                p{
+                margin-left: 120px; 
+                  
+                }
+            
+                input{
+                    width: 200px;
+                    left: 50px;
+                }
+            
+                button{
+                    left:25px;
+                }
+
+}
+
+
+@media screen and (max-width: 768px){
+    .caixa{
+        border-radius: 20px;
+    }
+
+    .inform{
+        margin-left: 95px;
+        position: relative;
+    }
+    img{
+       margin-left:130px;
+       position: relative;
+    }
+    
+    p{
+        margin-left: 120px; 
+        position: relative;
+          
+        }
+        .mini-caixa{
+            left: 90px;
+            position: relative
+            
+                }
+            
+        
+}
+
+
+@media screen and (max-width: 540px){
+    .caixa{
+        border-radius: 20px;
+    }
+#result{
+    height: 30px;
+   left: 80px;
+    position: relative;
+}
+
+    .inform{
+        margin-left: 35px;
+       
+    }
+    img{
+       margin-left:90px;
+       
+    }
+    
+    p{
+        margin-left: 60px; 
+     
+          
+        }
+        .mini-caixa{
+            left: 30px;
+           
+            
+                }
+            
+
+}
+
+
+
+@media screen and (max-width: 414px){
+    .caixa{
+        border-radius: 20px;
+    }
+    #result{
+        left: 50px;
+        height: 30px;
+         position: relative;
+     }
+     
+         .inform{
+        font-size: 20px;
+    
+        margin-left: 40px;
+            
+         }
+         img{
+            margin-left:70px;
+            
+         }
+         
+         p{
+             margin-left: 30px; 
+          
+               
+             }
+             .mini-caixa{
+                width: 40px;
+                 left: 0px;
+                
+                 
+                     }
+}
+
+
+@media screen and (max-width: 375px){
+    .caixa{
+        border-radius: 20px;
+    }
+
+    #result{
+        left: 40px;
+        height: 30px;
+         position: relative;
+     }
+     
+         .inform{
+        font-size: 20px;
+    
+        margin-left: 30px;
+            
+         }
+         img{
+            margin-left:70px;
+            
+         }
+         
+         p{
+             margin-left: 30px; 
+          
+               
+             }
+             .mini-caixa{
+                width: 40px;
+                 left: -10px;
+                
+                 
+                     }
+
+}
+
+
+@media screen and (max-width: 300px){
+.caixa{
+    border-radius: 20px;
+}
+    #result{
+        font-size: 10px;
+        left: 20px;
+        height: 30px;
+         position: relative;
+     }
+     
+         .inform{
+        font-size: 20px;
+    
+        margin-left: 10px;
+            
+         }
+         img{
+            margin-left:50px;
+            
+         }
+         
+         p{
+             margin-left: 0px; 
+          
+               
+             }
+
+
+             input{
+                width: 50px;
+             }
+             .mini-caixa{
+               left: 43px;
+                     }
+
+                     button{
+                        width: 60px;
+                        left:-5px ;
+                     }
+
+}
+
